@@ -1,0 +1,26 @@
+{
+  "extension": [
+    ".ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "coverage/**",
+    "dist/**"
+  ],
+  "reporter": [
+    "text-summary",
+    "html"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "all": true,
+  "check-coverage": false,
+  "statements": 100,
+  "branches": 100,
+  "functions": 100,
+  "lines": 100
+}
