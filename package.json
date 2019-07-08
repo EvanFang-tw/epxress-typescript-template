@@ -8,8 +8,8 @@
     "serve": "node dist/app.js",
     "build": "npm run lint && tsc",
     "test": "npm run lint && npm run unit-test",
-    "lint": "tslint -c tslint.json ./src/**/*.ts ./tests/**/*.ts",
-    "unit-test": "mocha -r ts-node/register \"tests/**/*.spec.ts\"",
+    "lint": "tslint -c tslint.json ./src/**/*.ts ./test/**/*.ts",
+    "unit-test": "mocha -r ts-node/register \"test/**/*.spec.ts\"",
     "coverage": "nyc npm test"
   },
   "author": "trustme",
