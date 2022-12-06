@@ -15,7 +15,7 @@
   "author": "trustme",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
